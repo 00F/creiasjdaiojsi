@@ -128,6 +128,103 @@ client8.on('message', message => {
     }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on("message", message => {
+      if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+    if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+        let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client2.on("message", message => {
+      if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+    if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+        let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client3.on("message", message => {
+    if (message.author.bot) return;
+    if(!message.channel.guild) return;
+      if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+  if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+      let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client4.on("message", message => {
+    if (message.author.bot) return;
+    if(!message.channel.guild) return;
+      if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+  if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+      let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client5.on("message", message => {
+    if (message.author.bot) return;
+    if(!message.channel.guild) return;
+      if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+  if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+      let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client6.on("message", message => {
+    if (message.author.bot) return;
+    if(!message.channel.guild) return;
+      if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+  if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+      let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client7.on("message", message => {
+    if (message.author.bot) return;
+    if(!message.channel.guild) return;
+      if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+  if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+      let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client8.on("message", message => {
+    if (message.author.bot) return;
+    if(!message.channel.guild) return;
+      if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+  if(message.author.id !== "320423357709549568") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+      let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+/////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity('M. // F.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
 });
