@@ -227,35 +227,27 @@ s.delete(3000);
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client1.user.setStatus("idle")
 });
 client2.on('ready', () => {
 client2.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client2.user.setStatus("idle")
 });
 client3.on('ready', () => {
 client3.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client3.user.setStatus("idle")
 });
 client4.on('ready', () => {
 client4.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client4.user.setStatus("idle")
 });
 client5.on('ready', () => {
 client5.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client5.user.setStatus("idle")
 });
 client6.on('ready', () => {
 client6.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client6.user.setStatus("idle")
 });
 client7.on('ready', () => {
 client7.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client7.user.setStatus("idle")
 });
 client8.on('ready', () => {
 client8.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
-client8.user.setStatus("idle")
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
