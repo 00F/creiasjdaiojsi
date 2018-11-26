@@ -225,6 +225,31 @@ s.delete(3000);
 }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on('ready', () => {
+client1.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client2.on('ready', () => {
+client2.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client3.on('ready', () => {
+client3.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client4.on('ready', () => {
+client4.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client5.on('ready', () => {
+client5.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client6.on('ready', () => {
+client6.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client7.on('ready', () => {
+client7.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+client8.on('ready', () => {
+client8.user.setActivity("LIFE IS PAIN",{type: 'LISTENING'})
+});
+//////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
           if (message.author.bot) return;
       if(!message.channel.guild) return;
