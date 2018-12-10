@@ -19,6 +19,7 @@ const p6 = new D6.Client();
 const p7 = new D7.Client();
 const p8 = new D8.Client();
 const p9 = new D9.Client();
+const p10 = new D10.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "521659507970015235"; 
 var ChannelID = "521666132462010369";
